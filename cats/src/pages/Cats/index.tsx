@@ -7,7 +7,6 @@ import {
   setIdForCat,
   setLimit,
 } from "../../redux/action";
-
 import { Categories, CatsType, StoreType } from "../../types";
 
 import styles from "./catssection.module.css";

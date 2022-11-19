@@ -12,6 +12,7 @@ const initialState = {
   limit: 10,
   id: 5,
 };
+
 const postsReducer = (state = initialState, action: PayloadAction<[]>) => {
   switch (action.type) {
     case FETCH_CATS_IMAGES:
